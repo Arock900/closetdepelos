@@ -2,12 +2,9 @@
 
 body {
     margin: 0;
-    padding: 0;
     font-family: 'Roboto', sans-serif;
-    background-image: url('fondopantalla.png');
+    background: url('fondopantalla.png') no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     color: white;
 }
 
@@ -15,14 +12,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0,0,0,0.5);
     padding: 10px 20px;
 }
 
 .logo-text {
     font-family: 'Pacifico', cursive;
     font-size: 28px;
-    color: white;
 }
 
 .nav-links {
@@ -32,64 +28,75 @@ body {
 }
 
 .nav-links a {
-    color: white;
     text-decoration: none;
+    color: white;
     font-weight: bold;
 }
 
 .encabezado {
-    text-align: center;
-    margin: 40px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 30px;
 }
 
 .logo-marca {
-    width: 180px;
+    width: 220px;
     height: auto;
 }
 
-.bienvenidos {
+.texto-encabezado h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 48px;
-    color: #ffcc00;
-    margin-top: 10px;
+    font-size: 50px;
+    color: white;
 }
 
-.mensaje {
-    font-size: 24px;
-    color: #ffcc00;
-    margin-top: 5px;
+.texto-encabezado p {
+    font-size: 20px;
+    color: white;
 }
 
-.contactos {
+.contacto {
     text-align: center;
     margin: 40px 0;
 }
 
-.contactos h2 {
-    color: black;
+.contacto h2 {
     font-size: 28px;
-    margin-bottom: 20px;
+    color: black;
 }
 
-.boton-contacto {
+.botones-contacto .btn {
     display: inline-block;
+    margin: 10px;
     padding: 10px 20px;
-    margin: 5px;
-    border: none;
-    border-radius: 5px;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
     font-weight: bold;
 }
 
-.boton-instagram { background-color: #C13584; }
-.boton-whatsapp { background-color: #25D366; }
-.boton-tiktok { background-color: #000000; }
+.whatsapp {
+    background-color: #25D366;
+}
+
+.instagram {
+    background-color: #C13584;
+}
+
+.tiktok {
+    background-color: #000000;
+}
+
+.email {
+    background-color: #0072c6;
+}
 
 .footer {
     text-align: center;
-    background: rgba(0,0,0,0.5);
-    color: white;
-    padding: 10px 0;
+    padding: 15px;
+    background-color: rgba(0,0,0,0.5);
     font-size: 14px;
 }
