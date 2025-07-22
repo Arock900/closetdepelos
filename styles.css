@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);  /* Más oscuro */
     padding: 10px 20px;
 }
 
@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.4);  /* Más clarito */
     padding: 30px;
 }
 
@@ -97,6 +97,8 @@ body {
 .footer {
     text-align: center;
     padding: 15px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     font-size: 14px;
+    color: white;
+    margin-top: 20px; /* Para que no quede pegado */
 }
